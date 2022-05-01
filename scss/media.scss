@@ -1,0 +1,246 @@
+@media screen and (max-width: 444px) {
+    article.art_1 .content {
+        min-width: 160px;
+       
+    }
+
+    article.art_1 section .btn {
+
+        width: 280px;
+        margin-top: 2px;
+    }
+}//art_1
+@media screen and (max-width: 320px) {
+    article.art_1 .content {
+        min-width: 150px;
+    
+    p{
+        font-size: large;
+    }
+   
+    article.art_1 section .btn{
+     
+        width: 160px;
+        margin-top: 2px;
+    }
+}
+
+}//art_1
+@media screen and (max-width: 390px) {
+
+    article.art_2 {
+        display: grid;
+        gap: 0;
+    div {
+        min-width: 160px;
+    }
+    div p{
+        line-height: 15px;
+    }
+
+    }
+}//art_2
+@media screen and (max-width: 390px) {
+
+    article.art_3 {
+        display: grid;
+        .text {
+            max-width: 100%;
+           
+        section{
+            margin:0;
+            padding: 20px;
+            text-align: left;
+       
+    }
+    }
+    }
+}//art_3
+@media screen and (max-width:390px){
+        article.art_3 .img{
+           width:100vw;
+           min-height: 220px;
+           background-position: left;
+        }
+}//art_3
+@media screen and (max-width: 390px) {
+//art_4
+    article.art_4 {
+        display: grid;
+      
+        .text {
+            max-width: 100%;
+        section {
+            margin: 0;
+            padding: 20px;
+            text-align: left;
+        
+        }
+        }
+        }
+}//art_4
+@media screen and (max-width:390px) {
+            article.art_4 .img {
+                width: 100vw;
+                min-height: 220px;
+                background-position: left;
+            }
+}//art_4
+@media screen and (max-width: 390px) {
+
+    article.art_5 {
+        display: grid;
+      
+
+        .text {
+            max-width: 100%;
+            section {
+                margin: 0;
+                padding: 20px;
+                text-align: left;
+            
+            }
+            }
+            }
+}//art_5
+@media screen and (max-width:390px) {
+ article.art_5 .img {
+        width: 100vw;
+        min-height: 220px;
+        background-position: left;
+                }
+}//art_5
+@media screen and (max-width: 420px){
+//art_6
+    article.art_6 div{ max-width: 27%;
+       
+    }
+    article.art_6 img{
+        height:80px;
+        width: 80px;
+   }
+   
+
+}//art_6
+@media screen and (max-width: 320px){
+
+   
+        
+    article.art_6 .comments{
+         flex-direction: column;
+         justify-content:center;
+         align-items: center;
+         gap:20px;
+     } 
+    article.art_6 .comments div{
+        max-width:70% ;
+        
+    }
+    article.art_6 .comments div h3{
+       font-size: 0.9em ;
+
+    }
+    article.art_6 .h1{
+        max-width: 150px;
+        font-style:bold ;
+        text-align: center;
+    }
+
+    article.art_6 img {
+        height: 120px;
+        width: 120px;
+        margin-right: 40px;
+    }
+}//art_6
+@media screen and (max-width: 444px) {
+    article.art_7 .content {
+        min-width: 160px;
+    }
+    article.art_7 section .btn {
+    
+        width: 280px;
+        margin-top: 2px;
+    }
+
+}//art7
+@media screen and (max-width: 320px) {
+    article.art_7 .content {
+        min-width: 160px;
+    p {
+        font-size: large;
+    }
+}
+    article.art_7 section .btn {
+    
+        width: 280px;
+        margin-top: 2px;
+    }//art7
+
+}//art7
+@media screen and (max-width: 530px) {
+    footer{
+        flex-direction: column;
+    
+    nav{
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    a{
+        font-size: 0.9em;
+        
+    }
+    }
+    }
+p {
+    font-size: smaller;
+}
+}//footer
+@media screen and (max-width: 320px) {
+    footer{
+        flex-direction: column;
+    
+    nav{
+        margin-top: 30px;
+    a{
+        font-size: 1em;
+       
+   
+    }
+    }
+    }
+p{
+    font-size: 0.3em;
+    text-align: center;
+}
+}//footer
+@media screen and (max-width: 320px){
+  
+    main footer img {
+        width: 20px;
+        height: 20px;
+    
+    }
+  
+}//footer
+@media screen and (max-width: 320px) {
+
+    main article.art_3 section p{
+        
+       text-align: left; 
+}
+    main article.art_4 section p{
+        
+       text-align: left; 
+}
+    main article.art_5 section p{
+        
+       text-align: left; 
+}
+}//art_3,4,5 text alligment
+
+
+    
+
+
+
+    

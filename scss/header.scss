@@ -1,0 +1,61 @@
+header {
+    background: $header-color;
+    min-height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            color: black;
+            margin-top: 7px;
+            text-decoration: none;
+            font-size: 0.9em;
+
+            &:hover {
+                color: darkblue;
+                transform: translateY(3px);
+                transition-delay: 0.2s;
+            }
+            &:nth-of-type(1){
+                margin-top: 10px;
+            }
+
+              button {
+                cursor: pointer;
+                width: 50px;
+                height: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                font-size: 0.8em;
+                font-family: 'lato';
+                background: $btn;
+                color: white; 
+                box-shadow: none;
+                border: none;
+
+
+
+                &:hover {
+                    background-color: darkblue;
+
+                }
+            }
+
+            //div
+        }
+
+        //a
+    }
+
+    //nav
+}
+
+//header
